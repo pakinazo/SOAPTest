@@ -15,13 +15,11 @@ SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
 </RequesterCredentials>
 </SOAP-ENV:Header>
 <SOAP-ENV:Body>
-<specific_api_name_Req xmlns="urn:ebay:api:PayPalAPI">
-<specific_api_name_Request>
-<Version xmlns=urn:ebay:apis:eBLBaseComponents">115
-</Version>
-<required_or_optional_fields xsi:type="Timestamp">2013-08-24T05:38:48Z
-</required_or_optional_fields>
-</specific_api_name_Request>
-</specific_api_name_Req>
+    <ns2:TransactionSearchReq>
+      <ns2:TransactionSearchRequest>
+        <ns1:Version>65.1</ns1:Version>
+        <ns2:StartDate>2013-08-24T05:38:48Z</ns2:StartDate>
+      </ns2:TransactionSearchRequest>
+    </ns2:TransactionSearchReq>
 </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
