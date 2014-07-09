@@ -60,6 +60,7 @@ namespace WebTestXML
             }
             catch (Exception ex)
             {
+                lbSOAP.Text = ex.Message.ToString();
                 Console.Write(ex.Message.ToString());
                 Console.Write(ex.StackTrace.ToString());
             }
