@@ -1,25 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SOAP-ENV:Envelope xmlns:xsi= "  http://www.w3.org/2001/XMLSchema-instance"
-xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
-xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
-xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
-><SOAP-ENV:Header>
-<RequesterCredentials xmlns="urn:ebay:api:PayPalAPI">
-<Credentials xmlns="urn:ebay:apis:eBLBaseComponents">
-<Username>johnpaga777-facilitator_api1.hotmail.com</Username>
-<Password>1404928825</Password>
-<Signature>AFcWxV21C7fd0v3bYYYRCpSSRl31Ap1VMzyQ31Nifwer-W3EqSaf05Sx<Signature/>
-<Subject/>
-</Credentials>
-</RequesterCredentials>
-</SOAP-ENV:Header>
-<SOAP-ENV:Body>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="urn:ebay:apis:eBLBaseComponents" xmlns:ns2="urn:ebay:api:PayPalAPI">
+  <SOAP-ENV:Header>
+    <ns2:RequesterCredentials>
+      <ns1:Credentials>
+        <ns1:Username>access_api1.quar.me</ns1:Username>
+        <ns1:Password>1368433256</ns1:Password>
+        <ns1:Signature>An5ns1Kso7MWUdW4ErQKJJJ4qi4-AJup1PmZISGiOyMbmlSG3i2ruYCl</ns1:Signature>
+      </ns1:Credentials>
+    </ns2:RequesterCredentials>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
     <ns2:TransactionSearchReq>
       <ns2:TransactionSearchRequest>
         <ns1:Version>65.1</ns1:Version>
         <ns2:StartDate>2013-08-24T05:38:48Z</ns2:StartDate>
       </ns2:TransactionSearchRequest>
     </ns2:TransactionSearchReq>
-</SOAP-ENV:Body>
+  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
