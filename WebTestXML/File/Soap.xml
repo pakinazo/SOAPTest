@@ -3,9 +3,9 @@
   <SOAP-ENV:Header>
     <ns2:RequesterCredentials>
       <ns1:Credentials>
-        <Username>johnpaga777-facilitator_api1.hotmail.com</Username>
-        <Password>1404928825</Password>
-        <Signature>AFcWxV21C7fd0v3bYYYRCpSSRl31Ap1VMzyQ31Nifwer-W3EqSaf05Sx<Signature/>
+        <Username>chavodel8x_api1.hotmail.com</Username>
+        <Password>1404939613</Password>
+        <Signature>AFcWxV21C7fd0v3bYYYRCpSSRl31ASXHfFLXGGwmp.NHOkD0q-5gTIJo<Signature/>
       </ns1:Credentials>
     </ns2:RequesterCredentials>
   </SOAP-ENV:Header>
