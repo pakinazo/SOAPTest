@@ -55,6 +55,7 @@ namespace WebTestXML
             catch (WebException webEx)
             {
                 Console.Write(webEx.Message.ToString());
+                lbSOAP.Text = webEx.Message.ToString();
                 Console.Write(webEx.StackTrace.ToString());
             }
             catch (Exception ex)
