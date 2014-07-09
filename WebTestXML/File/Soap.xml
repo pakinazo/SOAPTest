@@ -5,8 +5,7 @@
       <ns1:Credentials>
         <Username>chavodel8x_api2.hotmail.com</Username>
         <Password>1404939908</Password>
-        <Signature>
-          AFcWxV21C7fd0v3bYYYRCpSSRl31AU0JeJkmlXTomIRXrIsMbet0.C2D<Signature/>
+        <Signature>AFcWxV21C7fd0v3bYYYRCpSSRl31AU0JeJkmlXTomIRXrIsMbet0.C2D<Signature/>
       </ns1:Credentials>
     </ns2:RequesterCredentials>
   </SOAP-ENV:Header>
