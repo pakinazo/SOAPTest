@@ -3,9 +3,9 @@
   <SOAP-ENV:Header>
     <ns2:RequesterCredentials>
       <ns1:Credentials>
-        <Username>chavodel8x_api2.hotmail.com</Username>
-        <Password>1404939908</Password>
-        <Signature>AFcWxV21C7fd0v3bYYYRCpSSRl31AU0JeJkmlXTomIRXrIsMbet0.C2D<Signature/>
+        <ns1:Username>access_api1.quar.me</ns1:Username>
+        <ns1:Password>1368433256</ns1:Password>
+        <ns1:Signature>An5ns1Kso7MWUdW4ErQKJJJ4qi4-AJup1PmZISGiOyMbmlSG3i2ruYCl</ns1:Signature>
       </ns1:Credentials>
     </ns2:RequesterCredentials>
   </SOAP-ENV:Header>
