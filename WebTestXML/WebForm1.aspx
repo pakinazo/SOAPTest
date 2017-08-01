@@ -13,7 +13,16 @@
 <meta property="og:title" content="Título aquí" />
 <meta property="og:image" content="http://resultados.tiempooficial.com/rutas/140.png"/>
 <meta name="description" content="Aquí va toda la descripción que quieran" />
-       <% }else{%>
+       <% }
+      else if (Request.QueryString["d"] == "4")
+      {%>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta property="og:site_name" content="Prueba 2" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Ya registré mi número de participación para la carrera: Cambiando su Mundo 2017 competiré con el 2, asdasdjaodsijoiajdsadsda" />
+<meta property="og:image" content="http://resultados.tiempooficial.com/rutas/145.png"/>
+<meta name="description" content="Aquí 2 va toda la descripción que se quiera poner lo que sea va a ir en esta parte todo cuanto se le ocurra poner a quien sea" />
+           <% }else{%>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta property="og:site_name" content="Prueba 2" />
 <meta property="og:type" content="article" />
