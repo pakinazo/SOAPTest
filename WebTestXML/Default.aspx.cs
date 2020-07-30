@@ -77,6 +77,7 @@ namespace WebTestXML
             StreamReader reader = new StreamReader(file);
             string ret = reader.ReadToEnd();
             reader.Close();
+            var x = 22;
             return ret;
         }
 
